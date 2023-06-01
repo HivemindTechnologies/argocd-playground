@@ -71,7 +71,7 @@ spec:
       - CreateNamespace=true
 ```
 
-1. Deploy the application manifest in Kubernetes:
+2. Deploy the application manifest in Kubernetes:
 
 ```yaml
 kubectl apply -f cool-app.yaml -n argocd
