@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cool-app-configmap
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+      <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      </style>
+      </head>
+      <body>
+        <img src="https://thenewsfetcher.com/wp-content/uploads/2021/01/2522e330-7245-408e-9dc9-036b8f9e3376.jpg.webp" alt="Peralta" style="width:50%;">
+      </body>
+    </html>
+
+
