@@ -37,7 +37,7 @@ helm repo add argo https://argoproj.github.io/argo-helm /
 helm install argocd argo/argo-cd
 ```
 
-# Configure the Git Repo
+# Connect the Git Repo
 
 1. Open the Argo CD UI
 2. Click on **Settings** → **Repositories**
