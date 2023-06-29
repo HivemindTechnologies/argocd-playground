@@ -24,17 +24,17 @@ Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.
 
 # Install Argo CD via Helm Chart
 
-1. Create Argo CD namespace and switch into it:
+1. Create Argo CD namespace:
 
 ```yaml
 kubectl create namespace argocd
 ```
 
-1. Install Argo CD with Helm Chart:
+1. Install Argo CD with Helm Chart inside the Namespace created at the point above:
 
 ```bash
 helm repo add argo https://argoproj.github.io/argo-helm /
-helm install argocd argo/argo-cd
+helm install argocd argo/argo-cd -n argocd
 ```
 
 # Connect the Git Repo
