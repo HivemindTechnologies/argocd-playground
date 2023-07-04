@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: cool-app
+  name: cool-cool-cool-app
   labels:
     app.kubernetes.io/name: cool-app
     app.kubernetes.io/instance: cool-app
