@@ -33,7 +33,13 @@ spec:
             httpGet:
               path: /
               port: http
-          resources: {}
+          resources:
+            limits:
+              cpu: 100m
+              memory: 128Mi
+            requests:
+              cpu: 100m
+              memory: 128Mi
           volumeMounts:
             - name: nginx
               mountPath: /usr/share/nginx/html
